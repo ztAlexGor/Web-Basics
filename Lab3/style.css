@@ -1,0 +1,96 @@
+body {
+    background: rgb(150, 255, 243);
+    color: black;
+}
+
+.block{
+    position: relative;
+}
+
+
+h2 {
+    font-size: 50px;
+    font-weight: bold; 
+    text-align: center;
+}
+
+#container {
+    background: rgb(26, 85, 116);
+    margin: 100px;
+    width: 70%;
+    height: 750px;
+
+}
+
+#top-block {
+    background: rgb(76, 241, 54);
+    width: 100%;
+    height: 100px;
+}
+
+#left-block {
+    background: rgb(187, 102, 56);
+    float: left;
+    width: 75%;
+    height: 400px;
+}
+
+#right-block {
+    background: rgb(128, 104, 248);
+    float: right;
+    width: 25%;
+    height: 400px;
+}
+
+#bottom-block {
+    background: rgb(227, 97, 253);
+    width: 100%;
+    height: 250px;
+    clear: both;
+}
+
+
+
+
+/* FLEX */
+
+#flex-container {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 100px;
+    width: 70%;
+    height: 750px;
+}
+
+.flex-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#flex-top-block {
+    background: rgb(76, 241, 54);
+    height: 100px;
+}
+
+#flex-left-block {
+    background: rgb(187, 102, 56);
+    width: 75%;
+}
+
+#flex-right-block {
+    background: rgb(128, 104, 248);
+    width: 25%;
+}
+
+#flex-bottom-block {
+    background: rgb(227, 97, 253);
+    height: 250px;
+}
+
+
+#flex-row-container {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
