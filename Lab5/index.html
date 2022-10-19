@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+    <title>Горобець О.C. ІП-96</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML5, lab5, IP-96">
+    <meta name="description" content="Web basics. Lab 5">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="first-task">
+        <div id="form-container">
+            <form method="post" action="#">
+                <div>
+                    <label for="name">ПІБ:</label>
+                    <input id="name" type="text" placeholder="ТТТТТТ Т.Т.">
+                </div>
+                <div>
+                    <label for="variant">Варіант:</label>
+                    <input id="variant" type="text" placeholder="ЧЧ">
+                </div>
+                <div>
+                    <label for="phone">Телефон:</label>
+                    <input id="phone" type="text" placeholder="(ЧЧЧ)-ЧЧЧ-ЧЧ-ЧЧ">
+                </div>
+                <div>
+                    <label for="faculty">Факультет:</label>
+                    <input id="faculty" type="text" placeholder="ТТТТ">
+                </div>
+                <div>
+                    <label for="city">Адреса:</label>
+                    <input id="city" type="text" placeholder="м. ТТТТТТ">
+                </div>
+            </form>
+            <button onclick="validate_input()">Підтвердити</button>
+        </div>
+        <div id="results-container">
+            <div>ПІБ:</div>
+            <div>Варіант:</div>
+            <div>Телефон:</div>
+            <div>Факультет:</div>
+            <div>Адреса:</div>
+        </div>
+    </div>
+    
+    
+    
+    <div id="second-task">
+        <input type="color" id="color-paleet" name="color-paleet" value="#e66465">
+        <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td onmouseover="random_color(this)" onclick="selected_color(this)" ondblclick="select_rows(this)">7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td>32</td>
+                <td>33</td>
+                <td>34</td>
+                <td>35</td>
+                <td>36</td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
