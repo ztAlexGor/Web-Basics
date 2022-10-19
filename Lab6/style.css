@@ -1,0 +1,113 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+
+body {
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+	line-height: 25px;
+    background: rgb(225, 222, 241);
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+  
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	display: flex;
+	background: rgb(30, 86, 255);
+	height: 100px;
+	width: 100%;
+    position: relative;
+}
+
+button {
+	width: auto;
+    padding: 8px 20px;
+	height: auto;
+	border-radius: 1px;
+	margin: 20px auto;
+	background: rgb(255, 41, 41);
+    font-size: 35px;
+}
+
+button:hover {
+	background: rgb(37, 147, 9);
+	box-shadow: 3px 3px 3px rgb(100, 100, 100);
+}
+
+button:active {
+	background: rgb(37, 147, 9);
+	box-shadow: inset 2px 2px 1px rgb(100, 100, 100);
+}
+
+.content {
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;    
+	width: 100%;
+    position: relative;
+}
+
+.person-box {
+	display: inline-flex;
+	flex-direction: column;
+	width: 10%;
+	min-width: 300px;
+	margin: 10px 0px 10px 22px;
+	padding: 10px;
+	background: rgb(255, 255, 255);
+	border-radius: 20px;
+    box-shadow: 0px 0px 3px rgb(100, 100, 100);
+}
+.person-box p{
+	color:rgb(0, 0, 0);
+	text-align: center;
+	margin: 2px 0px;
+}
+.person-box img{
+    padding: 25px;
+	margin-bottom: 20px;
+	border-radius: 50px;
+}
+
+footer {
+	height: 100%;
+}
